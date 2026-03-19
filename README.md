@@ -4,7 +4,8 @@ A clean, browser-based Rock, Paper, Scissors game built with vanilla HTML, CSS, 
 
 ## Demo
 
-Open `index.html` directly in your browser — no build step or server required.
+Open [arne-dettmer.de/arnetwork/rps](https://arne-dettmer.de/arnetwork/rps) directly in your browser.
+> Or download the repo and open `index.html`
 
 ## Features
 
