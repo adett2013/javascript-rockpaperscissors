@@ -1,6 +1,7 @@
 const rock = document.getElementById("rock");
 const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
+const reset = document.getElementById("reset");
 const result = document.getElementById("result");
 const userScoreEl = document.getElementById("user-score");
 const computerScoreEl = document.getElementById("computer-score");
@@ -35,9 +36,9 @@ function play(userChoice) {
         result.textContent = `Computer wins this round! You: ${userChoice}, Computer: ${computerChoice}`;
     }
     if (userScore > 0 || computerScore > 0) {
-    scoreboard.style.display = "block";
-    userScoreEl.textContent = userScore;
-    computerScoreEl.textContent = computerScore;
+        scoreboard.style.display = "block";
+        userScoreEl.textContent = userScore;
+        computerScoreEl.textContent = computerScore;
     }
 
     if (userScore === 3) {
@@ -53,4 +54,5 @@ function disableButtons() {
     rock.disabled = true;
     paper.disabled = true;
     scissors.disabled = true;
+    reset.style.display = "inline-block";
 }
