@@ -1,4 +1,7 @@
-[! Rock, Paper, Scissors](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Rock,%20Paper,%20Scissors&desc=Arne%20Georg%20Dettmer&descAlignY=32)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Rock,%20Paper,%20Scissors&desc=Arne%20Georg%20Dettmer&descAlignY=32" />
+</p>
+
 
 A clean, browser-based Rock, Paper, Scissors game built with vanilla HTML, CSS, and JavaScript. Play against the computer in a first-to-three-wins format.
 
